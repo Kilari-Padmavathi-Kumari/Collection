@@ -6,11 +6,13 @@ import java.util.Vector;
 public class RetriveEle {
     public static void main(String[] args) {
         List<String> ve=new Vector<>();
+        System.err.println("initial size : "+ve.size());
         ve.add("padma");
         ve.add("josh");
         ve.add("kavya");
         
         System.err.println(ve.get(0));
-        System.err.println(ve.get(5));
+       
+        //System.err.println(ve.get(5));
     }
 }

@@ -29,6 +29,7 @@ public class AddEle {
         ve.add("padma");
         ve.add("josh");
         ve.add("kavya");
+        System.err.println(ve);
 
          List<String> nve=new Vector<>();
          nve.add("bujji");
