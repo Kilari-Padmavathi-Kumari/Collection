@@ -1,3 +1,6 @@
+/*Stores a list of integers: [2, 3, 4, 5, 6, 2, 3]
+Finds and prints all pairs of numbers from the list whose sum equals a target value (in this case, target = 10).*/
+
 import java.util.*;
 public class Target
 {
