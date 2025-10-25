@@ -18,8 +18,6 @@ public class Student
      list.add(new Student("civil",7,"rajini"));
      list.add(new Student("ece",18,"kavya"));
 
-     System.err.println(list);
-
      Collections.sort(list,(e1,e2) -> Integer.compare(e1.id,e2.id));
      for(Student lists:list)
      {
