@@ -1,5 +1,5 @@
 import java.util.*;
-class PriorityReverse
+public class PriorityReverse
 {
     public static void main(String[] args) {
        Queue<Integer> pq=new PriorityQueue<>(Comparator.reverseOrder());

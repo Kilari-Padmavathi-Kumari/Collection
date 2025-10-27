@@ -5,8 +5,8 @@ import java.util.*;
 
 public class Both implements Comparable<Both>                   //using comparable Implements the complarable interface and sort the values
 {
-    String name;
-    int salary;
+   private String name;
+    private int salary;
 
     public Both(String name, int salary) {
         this.name = name;

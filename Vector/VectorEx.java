@@ -1,5 +1,4 @@
 package Collection.Vector;
-
 import java.util.*;
 
 public class VectorEx {

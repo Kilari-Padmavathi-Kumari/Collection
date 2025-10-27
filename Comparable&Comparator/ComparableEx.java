@@ -4,8 +4,8 @@ import java.util.*;
 
 public class ComparableEx implements Comparable<ComparableEx>                   //using comparable Implements the complarable interface and sort the values
 {
-    String name;
-    int salary;
+    private String name;
+    private int salary;
 
     public ComparableEx(String name, int salary) {
         this.name = name;

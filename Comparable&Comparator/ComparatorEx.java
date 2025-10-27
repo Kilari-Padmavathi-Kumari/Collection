@@ -4,8 +4,8 @@ import java.util.*;
 
 public class ComparatorEx                 
 {
-    String name;
-    int salary;
+    private String name;
+    private int salary;
 
     public ComparatorEx(String name, int salary) {
         this.name = name;

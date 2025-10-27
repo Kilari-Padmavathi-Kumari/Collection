@@ -14,9 +14,9 @@ Remove books where the price < 300
 import java.util.*;
 public class BookList
 {
-    String bname;
-    String writter;
-    int price;
+    private String bname;
+    private String writter;
+    private int price;
 
     public BookList(String bname, int price, String writter) {
         this.bname = bname;
