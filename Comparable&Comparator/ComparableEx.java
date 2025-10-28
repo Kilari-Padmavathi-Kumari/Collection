@@ -1,5 +1,4 @@
 
-
 import java.util.*;
 
 public class ComparableEx implements Comparable<ComparableEx>                   //using comparable Implements the complarable interface and sort the values

@@ -10,5 +10,8 @@ public class HashEx
         hs.add(5);
         hs.add(4);
         System.err.println(hs);
+        hs.remove(45);
+        System.err.println("After removing ele : "+hs);
+
     }
 }

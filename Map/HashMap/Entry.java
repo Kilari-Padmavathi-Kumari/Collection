@@ -8,6 +8,7 @@ public class Entry
         ma.put(2,"kavya");
         ma.put(3,"josh");
         System.err.println(ma); 
+        
         Set<Map.Entry<Integer,String>> en=ma.entrySet();
         for (Map.Entry<Integer,String> e : en) {
            Integer key = e.getKey();

@@ -36,7 +36,7 @@ class Company {
             System.out.println(s.name);
         }
     }
-    
+   
    
 
     public static void main(String[] args) {
