@@ -1,10 +1,10 @@
 import java.util.*;
 
-class CustomObj {
-    int id;
-    String name;
+public class CustomObj {
+    private int id;
+    private String name;
 
-    CustomObj(int id, String name) {
+    public CustomObj(int id, String name) {
         this.id = id;
         this.name = name;
     }

@@ -1,10 +1,10 @@
 import java.util.*;
 
-class CustomeObj implements Comparable<CustomeObj> {
-    int id;
-    String name;
+public class CustomeObj implements Comparable<CustomeObj> {
+    private int id;
+    private String name;
 
-    CustomeObj(int id, String name) {
+    public CustomeObj(int id, String name) {
         this.id = id;
         this.name = name;
     }

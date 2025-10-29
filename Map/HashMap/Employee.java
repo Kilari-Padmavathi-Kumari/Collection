@@ -1,10 +1,10 @@
 import java.util.*;
 
-class Employee {
-    int id;
-    String name;
+public class Employee {
+    private int id;
+    private String name;
 
-    Employee(int id, String name) {
+    public Employee(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -27,7 +27,14 @@ class Employee {
         map.put(new Employee(2, "Pavan"), "Developer");
         map.put(new Employee(1, "Padma"), "HR"); 
 
+        System.err.println("keys : "+map.keySet());
+        System.err.println("keys : "+map.values());
         System.out.println("Employee Map: " + map);
         System.out.println("Size: " + map.size());
+
+        for(Map.Entry<Employee,String> entry:map.entrySet())
+        {
+            System.err.println(entry.getKey()+" "+entry.getValue());
+        }
     }
 }
